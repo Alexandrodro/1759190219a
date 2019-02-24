@@ -1,0 +1,10 @@
+form#message-form.message(
+  action='#'
+  method='post' 
+  name='message_form'
+  enctype="application/x-www-form-urlencoded"
+  novalid
+)
+  textarea#message-text.message__text(form="message-form" name='message_text')
+
+  input#message-submit.message__submit(name='message_submit' type='submit' value='Написать консультанту')

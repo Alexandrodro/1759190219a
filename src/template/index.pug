@@ -1,0 +1,26 @@
+doctype html
+html(lang='ru')
+	head
+		meta(charset = 'utf-8')
+		meta(
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		)
+		meta(
+			name='viewport'
+			content="initial-scale=1.0, width=device-width"
+		)
+		link(
+			rel="stylesheet"
+			href="css/main.min.css"
+		)
+
+		title Profile
+	body
+		.container
+			//- Profile includes user and reviews
+			include ./sections/profile
+
+			include ./sections/message
+
+		script(src="./js/index.js" type="text/javascript")

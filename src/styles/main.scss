@@ -1,0 +1,12 @@
+@import '../../node_modules/reset.scss/reset';
+// Global
+@import './global/base';
+@import './global/common';
+
+// Sections
+@import './sections/profile';
+@import './sections/user';
+@import './sections/services';
+@import './sections/reviews';
+@import './sections/comment';
+@import './sections/message';

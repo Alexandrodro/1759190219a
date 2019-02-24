@@ -1,0 +1,17 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #f7f7f7;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}

@@ -1,0 +1,51 @@
+.comment {
+	font-size: 14px;
+
+	&__wrap {
+		padding: 15px 0 0 0;
+	}
+
+	&__title {
+		display: flex;
+		align-items: center;
+		margin-bottom: 12px;
+	}
+
+	&__name {
+		font-weight: bold;
+		margin-right: 7px;
+	}
+
+	&__date {
+		font-size: 11px;
+	}
+
+	&__text {
+		position: relative;
+		line-height: 20px;
+		padding: 14px 10px 10px 20px;
+		margin-bottom: 3px;
+		background: #f2fbff;
+		border: 1px solid #c4cccf;
+
+		&:before, &:after {
+			content: '';
+			display: table;
+			position: absolute;
+			top: -9px;
+			left: 21px;
+			width: 0;
+			height: 0;
+			border-bottom: 9px solid #c4cccf;
+			border-right: 9px solid transparent;
+		}
+
+		&:after {
+			top: -7px;
+			left: 22px;
+			border-bottom: 8px solid #f2fbff;
+			border-right: 8px solid transparent;
+		}
+	}
+
+}

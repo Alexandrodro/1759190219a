@@ -1,0 +1,47 @@
+.user {
+	display: flex;
+	width: 100%;
+	
+	&__image {
+		min-width: 120px;
+		height: 120px;
+		background: #ccc;
+		border-radius: 50%;
+		z-index: 1;
+
+		@media screen and (max-width: 485px) {
+			position: relative;
+			top: 10px;
+		}
+	}
+	
+	&__info {
+		padding: 10px 0 0 10px;
+	}
+
+	&__name {
+		font-weight: bold;
+		line-height: 14px;
+	}
+
+	&__profession {
+		font-size: 12px;
+		line-height: 26px;
+		color: #808080;
+	}
+	
+	&__offer {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 8px 10px 8px 60px;
+		margin-left: -60px;
+		border: 1px solid #cecabf;
+		color: #333333;
+		background-color: #fffbc8;
+		border-radius: 6px;
+
+		@media screen and (max-width: 373px) {
+			font-size: 12px;
+		}
+	}
+}
